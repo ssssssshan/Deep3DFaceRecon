@@ -1,0 +1,8 @@
+datasets/val/landmarks/000002.txt
+datasets/val/landmarks/000006.txt
+datasets/val/landmarks/000007.txt
+datasets/val/landmarks/000031.txt
+datasets/val/landmarks/000033.txt
+datasets/val/landmarks/000050.txt
+datasets/val/landmarks/000055.txt
+datasets/val/landmarks/000114.txt

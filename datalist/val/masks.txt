@@ -1,0 +1,8 @@
+datasets/val/mask/000002.jpg
+datasets/val/mask/000006.jpg
+datasets/val/mask/000007.jpg
+datasets/val/mask/000031.jpg
+datasets/val/mask/000033.jpg
+datasets/val/mask/000050.jpg
+datasets/val/mask/000055.jpg
+datasets/val/mask/000114.jpg
