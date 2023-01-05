@@ -134,3 +134,6 @@ dmypy.json
 # BFM checkpoint
 ./BFM
 ./checkpoints
+
+# .vscode
+.vscode
