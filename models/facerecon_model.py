@@ -202,6 +202,7 @@ class FaceReconModel(BaseModel):
         with torch.no_grad():
             input_img_numpy = 255. * self.input_img.detach().cpu().permute(0, 2, 3, 1).numpy()
             output_vis = self.pred_face * self.pred_mask + (1 - self.pred_mask) * self.input_img
+            # output_vis = self.pred_face * self.pred_mask
             output_vis_numpy_raw = 255. * output_vis.detach().cpu().permute(0, 2, 3, 1).numpy()
             
             if self.gt_lm is not None:

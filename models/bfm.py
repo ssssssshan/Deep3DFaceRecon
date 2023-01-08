@@ -284,9 +284,9 @@ class ParametricFaceModel:
         rotation = self.compute_rotation(coef_dict['angle'])
 
 
-        # face_shape_transformed = self.transform(face_shape, rotation, coef_dict['trans'])
-        # face_vertex = self.to_camera(face_shape_transformed)
-        face_vertex = self.to_camera(face_shape) # 去掉pose参数
+        face_shape_transformed = self.transform(face_shape, rotation, coef_dict['trans'])
+        face_vertex = self.to_camera(face_shape_transformed)
+        # face_vertex = self.to_camera(face_shape) # 去掉pose参数
         
         face_proj = self.to_image(face_vertex)
         landmark = self.get_landmarks(face_proj)
